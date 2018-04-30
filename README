@@ -1,0 +1,22 @@
+This directory contains the summary statistics for the paper Estrada et al, Nat Comm, 2018
+A meta-analysis of two case-control GWAS for Neuromyelitis Optica was conducted on 1459 samples.
+The first dataset contained whole-genome sequence data and the second dataset was based on imputed GWAS. 
+
+An inverse variance meta-analysis was performed, only variants present in both studies are reported here. 
+
+A three analyses are reported here:
+NMO-IgG auto-antobody positive (NMO.IgGPos.gz)
+NMO-IgG auto-antobody negatvie (NMO.IgGNeg.gz)
+Combined NMOIgG+ and NMOIgG- (NMO.Combined.gz) 
+
+Headers:
+Chr = chromosome 
+Pos = position (build 37)
+Allele1 = non-effect allele
+Allele2 = effect allele
+rsID = snp identifier
+Effect = Effect size for each copy of Allele2
+P = Pvalue
+Direction = Direction across two studies
+HetISq = Heterogeneity Isq 
+N = sample size
